@@ -1,65 +1,36 @@
-A2N — The Minimal Productivity Cloud
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A2N es una plataforma de productividad moderna, modular y minimalista, inspirada en herramientas como Notion, Linear y Craft.
-Su misión es ofrecer un espacio unificado para documentos, bases de datos, tareas, conocimiento y colaboración, dentro de una arquitectura simple, rápida y totalmente privada.
+## Getting Started
 
-A2N = Alma + Aitor + Nuvem
-Un ecosistema creado para organizar, construir y pensar sin fricción.
+First, run the development server:
 
-🚀 Características principales
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Workspaces (Áreas de trabajo)
-Organiza proyectos, departamentos o documentos de forma independiente.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Editor de bloques estilo Notion
-Texto, encabezados, listas, toggles, checklist, código, embeds, etc.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Bases de datos inteligentes
-Tablas tipo Notion, propiedades, relaciones, filtros y vistas.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Autenticación moderna (JWT)
-Registro, login, roles y control de permisos.
+## Learn More
 
-Diseño minimalista
-Inspirado en Nothing, Linear y Notion. Limpio, blanco, sin ruido.
+To learn more about Next.js, take a look at the following resources:
 
-API REST estándar
-Pensada para integraciones, automatizaciones y aplicaciones externas.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Arquitectura modular
-Cada parte del sistema puede crecer: nuevos bloques, paneles, plugins o integraciones.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-🧩 Tech Stack
+## Deploy on Vercel
 
-Frontend: Next.js / React
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Backend: Next.js API Routes
-
-Base de Datos: PostgreSQL o SQLite
-
-ORM: Prisma
-
-Autenticación: JWT
-
-UI: CSS minimalista (sin Tailwind)
-
-Deploy: Vercel / Docker
-
-/
-├── prisma/
-│   └── schema.prisma
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── auth/
-│   │   │   ├── documents/
-│   │   │   └── workspace/
-│   │   ├── dashboard/
-│   │   ├── login/
-│   │   └── register/
-│   ├── components/
-│   ├── hooks/
-│   └── utils/
-├── public/
-├── package.json
-└── README.md
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
